@@ -19,3 +19,7 @@ class MySet:
     
     def size(self):
         len(self.dictionary)
+
+    def clear(self):
+        self.dictionary={}
+        return self
